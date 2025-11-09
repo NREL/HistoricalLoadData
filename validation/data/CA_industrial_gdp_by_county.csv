@@ -1,0 +1,246 @@
+CAGDP9 Real GDP by county and metropolitan area 1
+CAGDP9 Real GDP by county and metropolitan area 1
+County
+GeoFips,GeoName,LineCode,Description,2023
+06000,California,3,"    Agriculture, forestry, fishing and hunting",35134356
+06000,California,6,"    Mining, quarrying, and oil and gas extraction",8010922
+06000,California,11,"    Construction",101317386
+06000,California,12,"    Manufacturing",351559218
+06001,"Alameda, CA",3,"    Agriculture, forestry, fishing and hunting",99834
+06001,"Alameda, CA",6,"    Mining, quarrying, and oil and gas extraction",67885
+06001,"Alameda, CA",11,"    Construction",5880207
+06001,"Alameda, CA",12,"    Manufacturing",20325140
+06003,"Alpine, CA",3,"    Agriculture, forestry, fishing and hunting",9
+06003,"Alpine, CA",6,"    Mining, quarrying, and oil and gas extraction",0
+06003,"Alpine, CA",11,"    Construction",(D)
+06003,"Alpine, CA",12,"    Manufacturing",(D)
+06005,"Amador, CA",3,"    Agriculture, forestry, fishing and hunting",37590
+06005,"Amador, CA",6,"    Mining, quarrying, and oil and gas extraction",59558
+06005,"Amador, CA",11,"    Construction",66373
+06005,"Amador, CA",12,"    Manufacturing",166190
+06007,"Butte, CA",3,"    Agriculture, forestry, fishing and hunting",130727
+06007,"Butte, CA",6,"    Mining, quarrying, and oil and gas extraction",52179
+06007,"Butte, CA",11,"    Construction",486313
+06007,"Butte, CA",12,"    Manufacturing",595824
+06009,"Calaveras, CA",3,"    Agriculture, forestry, fishing and hunting",20324
+06009,"Calaveras, CA",6,"    Mining, quarrying, and oil and gas extraction",1623
+06009,"Calaveras, CA",11,"    Construction",108126
+06009,"Calaveras, CA",12,"    Manufacturing",27643
+06011,"Colusa, CA",3,"    Agriculture, forestry, fishing and hunting",325733
+06011,"Colusa, CA",6,"    Mining, quarrying, and oil and gas extraction",11810
+06011,"Colusa, CA",11,"    Construction",16611
+06011,"Colusa, CA",12,"    Manufacturing",137728
+06013,"Contra Costa, CA",3,"    Agriculture, forestry, fishing and hunting",122502
+06013,"Contra Costa, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06013,"Contra Costa, CA",11,"    Construction",3156576
+06013,"Contra Costa, CA",12,"    Manufacturing",9121268
+06015,"Del Norte, CA",3,"    Agriculture, forestry, fishing and hunting",33410
+06015,"Del Norte, CA",6,"    Mining, quarrying, and oil and gas extraction",0
+06015,"Del Norte, CA",11,"    Construction",26377
+06015,"Del Norte, CA",12,"    Manufacturing",15516
+06017,"El Dorado, CA",3,"    Agriculture, forestry, fishing and hunting",80832
+06017,"El Dorado, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06017,"El Dorado, CA",11,"    Construction",667802
+06017,"El Dorado, CA",12,"    Manufacturing",294646
+06019,"Fresno, CA",3,"    Agriculture, forestry, fishing and hunting",3856553
+06019,"Fresno, CA",6,"    Mining, quarrying, and oil and gas extraction",211293
+06019,"Fresno, CA",11,"    Construction",2259663
+06019,"Fresno, CA",12,"    Manufacturing",2900507
+06021,"Glenn, CA",3,"    Agriculture, forestry, fishing and hunting",190441
+06021,"Glenn, CA",6,"    Mining, quarrying, and oil and gas extraction",12517
+06021,"Glenn, CA",11,"    Construction",35299
+06021,"Glenn, CA",12,"    Manufacturing",108457
+06023,"Humboldt, CA",3,"    Agriculture, forestry, fishing and hunting",243115
+06023,"Humboldt, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06023,"Humboldt, CA",11,"    Construction",284342
+06023,"Humboldt, CA",12,"    Manufacturing",219347
+06025,"Imperial, CA",3,"    Agriculture, forestry, fishing and hunting",2867062
+06025,"Imperial, CA",6,"    Mining, quarrying, and oil and gas extraction",118614
+06025,"Imperial, CA",11,"    Construction",176925
+06025,"Imperial, CA",12,"    Manufacturing",250834
+06027,"Inyo, CA",3,"    Agriculture, forestry, fishing and hunting",20063
+06027,"Inyo, CA",6,"    Mining, quarrying, and oil and gas extraction",8889
+06027,"Inyo, CA",11,"    Construction",24356
+06027,"Inyo, CA",12,"    Manufacturing",111955
+06029,"Kern, CA",3,"    Agriculture, forestry, fishing and hunting",3307327
+06029,"Kern, CA",6,"    Mining, quarrying, and oil and gas extraction",4396267
+06029,"Kern, CA",11,"    Construction",1803693
+06029,"Kern, CA",12,"    Manufacturing",2815361
+06031,"Kings, CA",3,"    Agriculture, forestry, fishing and hunting",918656
+06031,"Kings, CA",6,"    Mining, quarrying, and oil and gas extraction",3235
+06031,"Kings, CA",11,"    Construction",167984
+06031,"Kings, CA",12,"    Manufacturing",615875
+06033,"Lake, CA",3,"    Agriculture, forestry, fishing and hunting",66826
+06033,"Lake, CA",6,"    Mining, quarrying, and oil and gas extraction",13889
+06033,"Lake, CA",11,"    Construction",80171
+06033,"Lake, CA",12,"    Manufacturing",55717
+06035,"Lassen, CA",3,"    Agriculture, forestry, fishing and hunting",62102
+06035,"Lassen, CA",6,"    Mining, quarrying, and oil and gas extraction",0
+06035,"Lassen, CA",11,"    Construction",13232
+06035,"Lassen, CA",12,"    Manufacturing",3310
+06037,"Los Angeles, CA",3,"    Agriculture, forestry, fishing and hunting",96248
+06037,"Los Angeles, CA",6,"    Mining, quarrying, and oil and gas extraction",741232
+06037,"Los Angeles, CA",11,"    Construction",18057559
+06037,"Los Angeles, CA",12,"    Manufacturing",72485877
+06039,"Madera, CA",3,"    Agriculture, forestry, fishing and hunting",1118965
+06039,"Madera, CA",6,"    Mining, quarrying, and oil and gas extraction",32143
+06039,"Madera, CA",11,"    Construction",278645
+06039,"Madera, CA",12,"    Manufacturing",427520
+06041,"Marin, CA",3,"    Agriculture, forestry, fishing and hunting",144471
+06041,"Marin, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06041,"Marin, CA",11,"    Construction",850166
+06041,"Marin, CA",12,"    Manufacturing",7514101
+06043,"Mariposa, CA",3,"    Agriculture, forestry, fishing and hunting",52980
+06043,"Mariposa, CA",6,"    Mining, quarrying, and oil and gas extraction",632
+06043,"Mariposa, CA",11,"    Construction",35128
+06043,"Mariposa, CA",12,"    Manufacturing",13085
+06045,"Mendocino, CA",3,"    Agriculture, forestry, fishing and hunting",195389
+06045,"Mendocino, CA",6,"    Mining, quarrying, and oil and gas extraction",7434
+06045,"Mendocino, CA",11,"    Construction",167056
+06045,"Mendocino, CA",12,"    Manufacturing",312778
+06047,"Merced, CA",3,"    Agriculture, forestry, fishing and hunting",1592183
+06047,"Merced, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06047,"Merced, CA",11,"    Construction",279897
+06047,"Merced, CA",12,"    Manufacturing",1196624
+06049,"Modoc, CA",3,"    Agriculture, forestry, fishing and hunting",198808
+06049,"Modoc, CA",6,"    Mining, quarrying, and oil and gas extraction",0
+06049,"Modoc, CA",11,"    Construction",14689
+06049,"Modoc, CA",12,"    Manufacturing",1368
+06051,"Mono, CA",3,"    Agriculture, forestry, fishing and hunting",27485
+06051,"Mono, CA",6,"    Mining, quarrying, and oil and gas extraction",2237
+06051,"Mono, CA",11,"    Construction",51047
+06051,"Mono, CA",12,"    Manufacturing",17757
+06053,"Monterey, CA",3,"    Agriculture, forestry, fishing and hunting",6014988
+06053,"Monterey, CA",6,"    Mining, quarrying, and oil and gas extraction",196152
+06053,"Monterey, CA",11,"    Construction",694614
+06053,"Monterey, CA",12,"    Manufacturing",695171
+06055,"Napa, CA",3,"    Agriculture, forestry, fishing and hunting",524742
+06055,"Napa, CA",6,"    Mining, quarrying, and oil and gas extraction",3288
+06055,"Napa, CA",11,"    Construction",538939
+06055,"Napa, CA",12,"    Manufacturing",2718982
+06057,"Nevada, CA",3,"    Agriculture, forestry, fishing and hunting",41810
+06057,"Nevada, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06057,"Nevada, CA",11,"    Construction",404426
+06057,"Nevada, CA",12,"    Manufacturing",208345
+06059,"Orange, CA",3,"    Agriculture, forestry, fishing and hunting",74273
+06059,"Orange, CA",6,"    Mining, quarrying, and oil and gas extraction",140543
+06059,"Orange, CA",11,"    Construction",10378181
+06059,"Orange, CA",12,"    Manufacturing",31004563
+06061,"Placer, CA",3,"    Agriculture, forestry, fishing and hunting",37730
+06061,"Placer, CA",6,"    Mining, quarrying, and oil and gas extraction",82630
+06061,"Placer, CA",11,"    Construction",2144844
+06061,"Placer, CA",12,"    Manufacturing",1003440
+06063,"Plumas, CA",3,"    Agriculture, forestry, fishing and hunting",18588
+06063,"Plumas, CA",6,"    Mining, quarrying, and oil and gas extraction",1524
+06063,"Plumas, CA",11,"    Construction",41879
+06063,"Plumas, CA",12,"    Manufacturing",49250
+06065,"Riverside, CA",3,"    Agriculture, forestry, fishing and hunting",777975
+06065,"Riverside, CA",6,"    Mining, quarrying, and oil and gas extraction",137366
+06065,"Riverside, CA",11,"    Construction",6969179
+06065,"Riverside, CA",12,"    Manufacturing",5976070
+06067,"Sacramento, CA",3,"    Agriculture, forestry, fishing and hunting",230110
+06067,"Sacramento, CA",6,"    Mining, quarrying, and oil and gas extraction",15834
+06067,"Sacramento, CA",11,"    Construction",4840433
+06067,"Sacramento, CA",12,"    Manufacturing",3531346
+06069,"San Benito, CA",3,"    Agriculture, forestry, fishing and hunting",161817
+06069,"San Benito, CA",6,"    Mining, quarrying, and oil and gas extraction",2353
+06069,"San Benito, CA",11,"    Construction",164764
+06069,"San Benito, CA",12,"    Manufacturing",481704
+06071,"San Bernardino, CA",3,"    Agriculture, forestry, fishing and hunting",344590
+06071,"San Bernardino, CA",6,"    Mining, quarrying, and oil and gas extraction",319510
+06071,"San Bernardino, CA",11,"    Construction",4703436
+06071,"San Bernardino, CA",12,"    Manufacturing",7143280
+06073,"San Diego, CA",3,"    Agriculture, forestry, fishing and hunting",643716
+06073,"San Diego, CA",6,"    Mining, quarrying, and oil and gas extraction",106503
+06073,"San Diego, CA",11,"    Construction",9675063
+06073,"San Diego, CA",12,"    Manufacturing",25081611
+06075,"San Francisco, CA",3,"    Agriculture, forestry, fishing and hunting",12852
+06075,"San Francisco, CA",6,"    Mining, quarrying, and oil and gas extraction",10489
+06075,"San Francisco, CA",11,"    Construction",3221195
+06075,"San Francisco, CA",12,"    Manufacturing",4495505
+06077,"San Joaquin, CA",3,"    Agriculture, forestry, fishing and hunting",885066
+06077,"San Joaquin, CA",6,"    Mining, quarrying, and oil and gas extraction",39673
+06077,"San Joaquin, CA",11,"    Construction",1958999
+06077,"San Joaquin, CA",12,"    Manufacturing",2952135
+06079,"San Luis Obispo, CA",3,"    Agriculture, forestry, fishing and hunting",222143
+06079,"San Luis Obispo, CA",6,"    Mining, quarrying, and oil and gas extraction",39325
+06079,"San Luis Obispo, CA",11,"    Construction",877277
+06079,"San Luis Obispo, CA",12,"    Manufacturing",1093782
+06081,"San Mateo, CA",3,"    Agriculture, forestry, fishing and hunting",46515
+06081,"San Mateo, CA",6,"    Mining, quarrying, and oil and gas extraction",55839
+06081,"San Mateo, CA",11,"    Construction",2642324
+06081,"San Mateo, CA",12,"    Manufacturing",24782300
+06083,"Santa Barbara, CA",3,"    Agriculture, forestry, fishing and hunting",1094161
+06083,"Santa Barbara, CA",6,"    Mining, quarrying, and oil and gas extraction",247811
+06083,"Santa Barbara, CA",11,"    Construction",894320
+06083,"Santa Barbara, CA",12,"    Manufacturing",2861435
+06085,"Santa Clara, CA",3,"    Agriculture, forestry, fishing and hunting",323099
+06085,"Santa Clara, CA",6,"    Mining, quarrying, and oil and gas extraction",48530
+06085,"Santa Clara, CA",11,"    Construction",7254851
+06085,"Santa Clara, CA",12,"    Manufacturing",83849523
+06087,"Santa Cruz, CA",3,"    Agriculture, forestry, fishing and hunting",80825
+06087,"Santa Cruz, CA",6,"    Mining, quarrying, and oil and gas extraction",6377
+06087,"Santa Cruz, CA",11,"    Construction",479480
+06087,"Santa Cruz, CA",12,"    Manufacturing",3097320
+06089,"Shasta, CA",3,"    Agriculture, forestry, fishing and hunting",153683
+06089,"Shasta, CA",6,"    Mining, quarrying, and oil and gas extraction",36103
+06089,"Shasta, CA",11,"    Construction",400973
+06089,"Shasta, CA",12,"    Manufacturing",489276
+06091,"Sierra, CA",3,"    Agriculture, forestry, fishing and hunting",2895
+06091,"Sierra, CA",6,"    Mining, quarrying, and oil and gas extraction",466
+06091,"Sierra, CA",11,"    Construction",(D)
+06091,"Sierra, CA",12,"    Manufacturing",(D)
+06093,"Siskiyou, CA",3,"    Agriculture, forestry, fishing and hunting",346019
+06093,"Siskiyou, CA",6,"    Mining, quarrying, and oil and gas extraction",4465
+06093,"Siskiyou, CA",11,"    Construction",70368
+06093,"Siskiyou, CA",12,"    Manufacturing",74552
+06095,"Solano, CA",3,"    Agriculture, forestry, fishing and hunting",31506
+06095,"Solano, CA",6,"    Mining, quarrying, and oil and gas extraction",80598
+06095,"Solano, CA",11,"    Construction",1397042
+06095,"Solano, CA",12,"    Manufacturing",10657269
+06097,"Sonoma, CA",3,"    Agriculture, forestry, fishing and hunting",515357
+06097,"Sonoma, CA",6,"    Mining, quarrying, and oil and gas extraction",40832
+06097,"Sonoma, CA",11,"    Construction",1883039
+06097,"Sonoma, CA",12,"    Manufacturing",4514853
+06099,"Stanislaus, CA",3,"    Agriculture, forestry, fishing and hunting",1367486
+06099,"Stanislaus, CA",6,"    Mining, quarrying, and oil and gas extraction",14058
+06099,"Stanislaus, CA",11,"    Construction",1014488
+06099,"Stanislaus, CA",12,"    Manufacturing",3532392
+06101,"Sutter, CA",3,"    Agriculture, forestry, fishing and hunting",266152
+06101,"Sutter, CA",6,"    Mining, quarrying, and oil and gas extraction",9270
+06101,"Sutter, CA",11,"    Construction",157777
+06101,"Sutter, CA",12,"    Manufacturing",180931
+06103,"Tehama, CA",3,"    Agriculture, forestry, fishing and hunting",243233
+06103,"Tehama, CA",6,"    Mining, quarrying, and oil and gas extraction",836
+06103,"Tehama, CA",11,"    Construction",121900
+06103,"Tehama, CA",12,"    Manufacturing",192164
+06105,"Trinity, CA",3,"    Agriculture, forestry, fishing and hunting",31416
+06105,"Trinity, CA",6,"    Mining, quarrying, and oil and gas extraction",2620
+06105,"Trinity, CA",11,"    Construction",12778
+06105,"Trinity, CA",12,"    Manufacturing",22180
+06107,"Tulare, CA",3,"    Agriculture, forestry, fishing and hunting",3284062
+06107,"Tulare, CA",6,"    Mining, quarrying, and oil and gas extraction",19333
+06107,"Tulare, CA",11,"    Construction",754204
+06107,"Tulare, CA",12,"    Manufacturing",1557265
+06109,"Tuolumne, CA",3,"    Agriculture, forestry, fishing and hunting",64613
+06109,"Tuolumne, CA",6,"    Mining, quarrying, and oil and gas extraction",23957
+06109,"Tuolumne, CA",11,"    Construction",107633
+06109,"Tuolumne, CA",12,"    Manufacturing",94071
+06111,"Ventura, CA",3,"    Agriculture, forestry, fishing and hunting",1079294
+06111,"Ventura, CA",6,"    Mining, quarrying, and oil and gas extraction",430323
+06111,"Ventura, CA",11,"    Construction",1664212
+06111,"Ventura, CA",12,"    Manufacturing",7569410
+06113,"Yolo, CA",3,"    Agriculture, forestry, fishing and hunting",358015
+06113,"Yolo, CA",6,"    Mining, quarrying, and oil and gas extraction",(D)
+06113,"Yolo, CA",11,"    Construction",690969
+06113,"Yolo, CA",12,"    Manufacturing",1298286
+06115,"Yuba, CA",3,"    Agriculture, forestry, fishing and hunting",31475
+06115,"Yuba, CA",6,"    Mining, quarrying, and oil and gas extraction",7254
+06115,"Yuba, CA",11,"    Construction",160711
+06115,"Yuba, CA",12,"    Manufacturing",102459
+
+Legend/Footnotes
+1. Real GDP is in thousands of chained 2017 dollars. Industry detail is based on the 2017 North American Industry Classification System (NAICS).
+"  Metropolitan Areas are defined (geographically delineated) by the Office of Management and Budget (OMB) bulletin no. 20-01 issued March 6, 2020."
+(D) Not shown to avoid disclosure of confidential information; estimates are included in higher-level totals.
+"  Last updated: December 4, 2024-- new statistics for 2023; revised statistics for 2019-2022."
