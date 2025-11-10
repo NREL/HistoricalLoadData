@@ -28,6 +28,7 @@ A description of the broader pipeline is presented below.
 1) `step2_anomaly_screening.ipynb`
 2) `MICE_step.Rmd`
 3) `step4_distribute_MICE_results.ipynb`
+
 The folder also contains the outputs of the MICE technique for each profile type (`eia_data_cleaner/data/{forecast|load_loss_correction|regional|subregional}/outputs`).
 
 `load_loss_correction` adjusts the hourly BA/sub-BA load profiles to add load during periods of reported load loss. The notebooks should be run in the following order:
@@ -46,4 +47,8 @@ It also rescales/combines hourly county-level DPV capacity factor profiles to cr
 5) `calculate_county_zone_area_coverage.ipynb`
 6) `create_county_load_profiles.ipynb`
 
-`validation` compares the 2023 county-level load estimates for California's counties to 2023 annual county-level consumption data published by the California Energy Commission and the 2023 hourly state-level load profile for California published in EIA-930.
+`validation/load_magnitudes.ipynb` compares the 2023 county-level load magnitudes we estimate here for California's counties to 2023 annual county-level consumption data published by the California Energy Commission.
+
+`validation/load_patterns.ipynb` compares the hourly load patterns of aggregated county-level load profiles for California to the 2023 hourly state-level load profile for California published in EIA-930.
+
+`validation/raw_imputed_load_comparison.ipynb` calculates the percentage of raw load and load forecast values that are updated by the MICE technique.
