@@ -4,6 +4,11 @@
 3) Register an ipykernel for the environment by running `python -m ipykernel install --user --name hld --display-name "Python (hld)"`
 4) Run `jupyter notebook` to start running the notebooks.
 
+Additionally, note that the following data files had to be compressed to comply with Github file size limits and therefore need to be unzipped/extracted before running notebooks that depend on these files:
+- `data/distpv_profiles/{residential|commercial}_{2016|2017|2018|2019|2020|2021|2022|2023}.zip`
+- `data/shapefiles/US_COUNTY_2022.7z`
+- `data/eia_load_profiles/raw/EBA-pre2019.7z`
+
 # Usage
 To recreate the county-level load profiles using the data files in the repository, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to read the resulting `.h5` file, as shown below. 
 
@@ -15,7 +20,7 @@ df = pd.read_hdf("historic_load_hourly_2016_2023_county.h5")
 
 A description of the broader pipeline is presented below.
 
-`load_data_collection` collects and/or pre-processes hourly BA/sub-BA load and load forecast data from EIA-930 or from RTO-specific websites/APIs. Note that some scripts require you to register for your own API key.
+`load_data_collection` collects and/or pre-processes hourly BA/sub-BA load and load forecast data from EIA-930 or from RTO-specific websites/APIs. Note that some scripts require you to register for an API key.
 
 `load_data_processing` does further processing on the hourly BA/sub-BA load and load forecast data and combines them to create the full set of baseline load profiles (`data/baseline_load_profiles`) used in subsequent processes.
 
@@ -42,8 +47,3 @@ It also rescales/combines hourly county-level DPV capacity factor profiles to cr
 6) `create_county_load_profiles.ipynb`
 
 `validation` compares the 2023 county-level load estimates for California's counties to 2023 annual county-level consumption data published by the California Energy Commission and the 2023 hourly state-level load profile for California published in EIA-930.
-
-Note that the following data files had to be compressed to comply with Github file size limits and therefore need to be unzipped/extracted before running notebooks that depend on these files:
-- `data/distpv_profiles/{residential|commercial}_{2016|2017|2018|2019|2020|2021|2022|2023}.zip`
-- `data/shapefiles/US_COUNTY_2022.7z`
-- `data/eia_load_profiles/raw/EBA-pre2019.7z`
