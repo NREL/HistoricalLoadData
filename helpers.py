@@ -381,3 +381,42 @@ def get_dst_timestamps(year):
     ]
     assert start_ts < end_ts
     return start_ts, end_ts
+
+def get_baseline_load_profiles():
+    baseline_load_profiles = {}
+    hourly_demand_path = "../data/baseline_load_profiles/processed"
+    for fname in os.listdir(hourly_demand_path):
+        fpath = os.path.join(hourly_demand_path, fname)
+        if os.path.isdir(fpath):
+            continue
+        df = pd.read_csv(fpath, parse_dates=["timestamp"], index_col="timestamp")
+        eia_code = fname.replace('.csv', '')
+        baseline_load_profiles[eia_code] = df['value']
+
+    return baseline_load_profiles
+
+def get_rooftop_pv_cf_profiles_by_sector():
+    rooftop_pv_cf_profiles_by_sector = {}
+    for sector in ['residential', 'commercial']:
+        df_list = []
+
+        for year in range(2016, 2024):
+            df_cf = pd.read_hdf(f'../data/distpv_profiles/{sector}_{year}.h5')
+            df_list.append(df_cf)
+
+        df_cf = pd.concat(df_list)
+        del df_list
+        rooftop_pv_cf_profiles_by_sector[sector] = df_cf
+    
+    return rooftop_pv_cf_profiles_by_sector
+
+def rescale_profile(profile, annual_totals):
+    profile_norm = profile.apply(lambda x: x / x.groupby(x.index.year).transform('sum'))
+    profile_norm = profile_norm.set_index(profile_norm.index.year, append=True)
+    rescaled_profile = (
+        profile_norm.mul(annual_totals.T, level=1)
+        .fillna(0)
+        .droplevel(1)
+    )
+
+    return rescaled_profile
