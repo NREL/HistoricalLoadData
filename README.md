@@ -3,6 +3,7 @@
 2) Activate the conda environment by running `conda activate hld`.
 3) Register an ipykernel for the environment by running `python -m ipykernel install --user --name hld --display-name "Python (hld)"`
 4) Run `jupyter notebook` to start running the notebooks.
+5) Install R and RStudio (required for `eia_data_cleaner/MICE_step.Rmd`). See https://rstudio-education.github.io/hopr/starting.html for instructions.
 
 Additionally, note that the following data files had to be compressed to comply with Github file size limits and therefore need to be unzipped/extracted before running notebooks that depend on these files:
 - `data/distpv_profiles/{residential|commercial}_{2016|2017|2018|2019|2020|2021|2022|2023}.zip`
