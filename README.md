@@ -1,10 +1,12 @@
-To recreate the county-level load profiles using the data files here, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. A description of the broader pipeline is presented below. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the `.h5` file, as shown below. 
+To recreate the county-level load profiles using the data files here, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the `.h5` file, as shown below. 
 
 ```python
 import pandas as pd
 
 df = pd.read_hdf("historic_load_hourly_2016_2023_county.h5")
 ```
+
+A description of the broader pipeline is presented below.
 
 `load_data_collection` collects and/or pre-processes hourly BA/sub-BA load and load forecast data from EIA-930 or from RTO-specific websites/APIs. Note that some scripts require you to register for your own API key.
 
