@@ -391,7 +391,10 @@ def get_baseline_load_profiles():
             continue
         df = pd.read_csv(fpath, parse_dates=["timestamp"], index_col="timestamp")
         eia_code = fname.replace('.csv', '')
-        baseline_load_profiles[eia_code] = df['value']
+        baseline_load_profiles[eia_code] = (
+            df.loc[(df.index.year <= 2023) & (df.index.year >= 2016)]
+            ['value']
+        )
 
     return baseline_load_profiles
 
