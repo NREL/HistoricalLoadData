@@ -1,3 +1,5 @@
+To run the notebooks in this repository, first set up the conda environment by running `conda env create -f environment.yml`.
+
 To recreate the county-level load profiles using the data files here, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the `.h5` file, as shown below. 
 
 ```python
