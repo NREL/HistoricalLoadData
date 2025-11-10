@@ -1,4 +1,8 @@
-To run the notebooks in this repository, first set up the conda environment by running `conda env create -f environment.yml`.
+# Setup
+1) Create the conda environment by running `conda env create -f environment.yml`.
+2) Activate the conda environment by running `conda activate hld`.
+3) Register an ipykernel for the environment by running `python -m ipykernel install --user --name hld --display-name "Python (hld)"`
+4) Run `jupyter notebook` to start running the notebooks.
 
 To recreate the county-level load profiles using the data files here, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the `.h5` file, as shown below. 
 
@@ -14,7 +18,11 @@ A description of the broader pipeline is presented below.
 
 `load_data_processing` does further processing on the hourly BA/sub-BA load and load forecast data and combines them to create the full set of baseline load profiles (`data/baseline_load_profiles`) used in subsequent processes.
 
-`eia_data_cleaner` imputes the hourly BA/sub-BA load and load forecast data using the MICE imputation technique described in https://www.nature.com/articles/s41597-020-0483-x. Note that only steps 2-4 of this process are relevant to this repo. The folder also contains the outputs of the MICE technique (`eia_data_cleaner/data/{forecast|load_loss_correction|regional|subregional}/outputs`).
+`eia_data_cleaner` imputes the hourly BA/sub-BA load and load forecast data using the MICE imputation technique described in https://www.nature.com/articles/s41597-020-0483-x. Note that step 1 of this process (`step1_get_eia_demand_data.ipynb`) is not relevant to this repo since we get the data already in `load_data_collection`. The notebooks/programs should be run in the following order:
+1) `step2_anomaly_screening.ipynb`
+2) `MICE_step.Rmd`
+3) `step4_distribute_MICE_results.ipynb`
+The folder also contains the outputs of the MICE technique for each profile type (`eia_data_cleaner/data/{forecast|load_loss_correction|regional|subregional}/outputs`).
 
 `load_loss_correction` adjusts the hourly BA/sub-BA load profiles to add load during periods of reported load loss. The notebooks should be run in the following order:
 1) `create_ba_subba_shapefile.ipynb`
