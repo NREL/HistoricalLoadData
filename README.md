@@ -4,6 +4,7 @@
 3) Register an ipykernel for the environment by running `python -m ipykernel install --user --name hld --display-name "Python (hld)"`
 4) Run `jupyter notebook` to start running the notebooks.
 
+# Usage
 To recreate the county-level load profiles using the data files here, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the `.h5` file, as shown below. 
 
 ```python
