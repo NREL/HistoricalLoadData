@@ -5,7 +5,7 @@
 4) Run `jupyter notebook` to start running the notebooks.
 
 # Usage
-To recreate the county-level load profiles using the data files in the repository, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to open the resulting `.h5` file, as shown below. 
+To recreate the county-level load profiles using the data files in the repository, the only notebook that needs to be run is the `load_scaling/create_county_load_profiles.ipynb`. The county-level load profiles can be downloaded directly from https://data.openei.org/submissions/8562. The Python package `pandas` can be used to read the resulting `.h5` file, as shown below. 
 
 ```python
 import pandas as pd
